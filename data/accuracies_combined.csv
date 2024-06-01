@@ -1,0 +1,15 @@
+model,estimator,accuracy_in_%,source,dataset,best_parameters
+RandomForestClassifier,DecisionTreeClassifier,86.57,scaled,original,
+RandomForestClassifier,,86.42,unscaled,parametered,"{'n_estimators': 80, 'max_features': 0.5, 'bootstrap': True}"
+BaggingClassifier,,86.4,scaled,parametered,"{'n_estimators': 100, 'max_samples': 0.5, 'max_features': 1.0, 'bootstrap_features': True, 'bootstrap': False}"
+BaggingClassifier,RandomForestClassifier,86.22,scaled,original,
+AdaBoostClassifier,RandomForestClassifier,86.0,unscaled,original,
+GradientBoostingClassifier,,84.31,unscaled,parametered,"{'learning_rate': 0.5, 'max_depth': 7, 'min_samples_leaf': 2, 'min_samples_split': 7, 'n_estimators': 100, 'subsample': 1.0}"
+KNeighborsClassifier,,83.69,scaled,parametered,"{'algorithm': 'auto', 'leaf_size': 10, 'n_neighbors': 9, 'p': 1, 'weights': 'distance'}"
+DecisionTreeClassifier,,82.93,unscaled,parametered,"{'min_samples_split': 3, 'min_samples_leaf': 2, 'max_depth': 16}"
+DecisionTreeClassifier,DecisionTreeClassifier,82.41,scaled,original,
+GradientBoostingClassifier,GradientBoostingClassifier,81.49,unscaled,original,
+LogisticRegression,,80.96,scaled,parametered,"{'C': 10, 'max_iter': 7000, 'penalty': 'l1', 'solver': 'liblinear'}"
+AdaBoostClassifier,,80.86,unscaled,parametered,"{'n_estimators': 70, 'learning_rate': 1.0, 'algorithm': 'SAMME'}"
+KNeighborsClassifier,KNeighborsClassifier,80.77,scaled,original,
+LogisticRegression,LogisticRegression,79.94,unscaled,original,

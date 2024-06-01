@@ -1,0 +1,45 @@
+model,best_parameters,accuracy_in_%,runtime_in_seconds,source
+KNeighborsClassifier,"{'algorithm': 'auto', 'leaf_size': 10, 'n_neighbors': 9, 'p': 1, 'weights': 'distance'}",77.49,26,unscaled
+KNeighborsClassifier,"{'algorithm': 'auto', 'leaf_size': 10, 'n_neighbors': 9, 'p': 1, 'weights': 'distance'}",81.98,27,scaled
+LogisticRegression,"{'C': 0.1, 'max_iter': 7000, 'penalty': 'l1', 'solver': 'liblinear'}",78.68,31,unscaled
+LogisticRegression,"{'C': 0.1, 'max_iter': 7000, 'penalty': 'l1', 'solver': 'liblinear'}",78.71,2,scaled
+DecisionTreeClassifier,"{'max_depth': 15, 'min_samples_leaf': 2, 'min_samples_split': 2}",80.73,0,unscaled
+DecisionTreeClassifier,"{'max_depth': 15, 'min_samples_leaf': 2, 'min_samples_split': 2}",80.75,0,scaled
+RandomForestClassifier,"{'bootstrap': True, 'max_features': 0.5, 'n_estimators': 80}",85.18,16,unscaled
+RandomForestClassifier,"{'bootstrap': True, 'max_features': 0.5, 'n_estimators': 80}",85.05,16,scaled
+GradientBoostingClassifier,"{'learning_rate': 0.5, 'max_depth': 7, 'min_samples_leaf': 2, 'min_samples_split': 7, 'n_estimators': 100, 'subsample': 1.0}",83.22,26,unscaled
+GradientBoostingClassifier,"{'learning_rate': 0.5, 'max_depth': 7, 'min_samples_leaf': 2, 'min_samples_split': 7, 'n_estimators': 100, 'subsample': 1.0}",83.22,26,scaled
+BaggingClassifier,"{'bootstrap': True, 'bootstrap_features': True, 'max_features': 1.0, 'max_samples': 1.0, 'n_estimators': 80}",85.18,27,unscaled
+BaggingClassifier,"{'bootstrap': True, 'bootstrap_features': True, 'max_features': 1.0, 'max_samples': 1.0, 'n_estimators': 80}",85.22,28,scaled
+AdaBoostClassifier,"{'algorithm': 'SAMME', 'learning_rate': 1.0, 'n_estimators': 40}",80.72,2,unscaled
+AdaBoostClassifier,"{'algorithm': 'SAMME', 'learning_rate': 1.0, 'n_estimators': 40}",80.72,2,scaled
+KNeighborsClassifier,"{'algorithm': 'kd_tree', 'leaf_size': 10, 'n_neighbors': 9, 'p': 1, 'weights': 'distance'}",77.44,4,unscaled
+KNeighborsClassifier,"{'algorithm': 'kd_tree', 'leaf_size': 10, 'n_neighbors': 9, 'p': 1, 'weights': 'distance'}",81.98,173,scaled
+LogisticRegression,"{'C': 10, 'max_iter': 7000, 'penalty': 'l1', 'solver': 'liblinear'}",78.8,41,unscaled
+LogisticRegression,"{'C': 10, 'max_iter': 7000, 'penalty': 'l1', 'solver': 'liblinear'}",78.79,32,scaled
+KNeighborsClassifier,"{'weights': 'distance', 'p': 1, 'n_neighbors': 9, 'leaf_size': 20, 'algorithm': 'kd_tree'}",77.38,4,unscaled
+KNeighborsClassifier,"{'weights': 'distance', 'p': 1, 'n_neighbors': 9, 'leaf_size': 20, 'algorithm': 'kd_tree'}",81.98,150,scaled
+LogisticRegression,"{'solver': 'liblinear', 'penalty': 'l1', 'max_iter': 8000, 'C': 1}",78.79,36,unscaled
+LogisticRegression,"{'solver': 'liblinear', 'penalty': 'l1', 'max_iter': 8000, 'C': 1}",78.79,41,scaled
+DecisionTreeClassifier,"{'min_samples_split': 3, 'min_samples_leaf': 2, 'max_depth': 16}",80.76,0,unscaled
+DecisionTreeClassifier,"{'min_samples_split': 3, 'min_samples_leaf': 2, 'max_depth': 16}",80.77,0,scaled
+RandomForestClassifier,"{'n_estimators': 80, 'max_features': 0.5, 'bootstrap': True}",85.22,16,unscaled
+RandomForestClassifier,"{'n_estimators': 80, 'max_features': 0.5, 'bootstrap': True}",85.15,16,scaled
+GradientBoostingClassifier,"{'subsample': 0.75, 'n_estimators': 50, 'min_samples_split': 3, 'min_samples_leaf': 2, 'max_depth': 6, 'learning_rate': 0.5}",82.48,8,unscaled
+GradientBoostingClassifier,"{'subsample': 0.75, 'n_estimators': 50, 'min_samples_split': 3, 'min_samples_leaf': 2, 'max_depth': 6, 'learning_rate': 0.5}",82.66,9,scaled
+BaggingClassifier,"{'n_estimators': 70, 'max_samples': 0.5, 'max_features': 1.0, 'bootstrap_features': True, 'bootstrap': False}",85.32,20,unscaled
+BaggingClassifier,"{'n_estimators': 70, 'max_samples': 0.5, 'max_features': 1.0, 'bootstrap_features': True, 'bootstrap': False}",84.88,20,scaled
+AdaBoostClassifier,"{'n_estimators': 40, 'learning_rate': 1.0, 'algorithm': 'SAMME'}",80.72,2,unscaled
+AdaBoostClassifier,"{'n_estimators': 40, 'learning_rate': 1.0, 'algorithm': 'SAMME'}",80.72,2,scaled
+KNeighborsClassifier,"{'weights': 'distance', 'p': 1, 'n_neighbors': 7, 'leaf_size': 20, 'algorithm': 'kd_tree'}",77.18,4,unscaled
+KNeighborsClassifier,"{'weights': 'distance', 'p': 1, 'n_neighbors': 7, 'leaf_size': 20, 'algorithm': 'kd_tree'}",81.64,146,scaled
+LogisticRegression,"{'solver': 'liblinear', 'penalty': 'l1', 'max_iter': 7000, 'C': 10}",78.81,40,unscaled
+LogisticRegression,"{'solver': 'liblinear', 'penalty': 'l1', 'max_iter': 7000, 'C': 10}",78.79,32,scaled
+DecisionTreeClassifier,"{'min_samples_split': 7, 'min_samples_leaf': 4, 'max_depth': 14}",80.35,0,unscaled
+DecisionTreeClassifier,"{'min_samples_split': 7, 'min_samples_leaf': 4, 'max_depth': 14}",80.34,0,scaled
+GradientBoostingClassifier,"{'subsample': 0.75, 'n_estimators': 90, 'min_samples_split': 10, 'min_samples_leaf': 4, 'max_depth': 7, 'learning_rate': 0.5}",82.83,18,unscaled
+GradientBoostingClassifier,"{'subsample': 0.75, 'n_estimators': 90, 'min_samples_split': 10, 'min_samples_leaf': 4, 'max_depth': 7, 'learning_rate': 0.5}",82.57,18,scaled
+BaggingClassifier,"{'n_estimators': 100, 'max_samples': 0.5, 'max_features': 1.0, 'bootstrap_features': True, 'bootstrap': False}",85.18,29,unscaled
+BaggingClassifier,"{'n_estimators': 100, 'max_samples': 0.5, 'max_features': 1.0, 'bootstrap_features': True, 'bootstrap': False}",85.36,28,scaled
+AdaBoostClassifier,"{'n_estimators': 70, 'learning_rate': 1.0, 'algorithm': 'SAMME'}",80.73,4,unscaled
+AdaBoostClassifier,"{'n_estimators': 70, 'learning_rate': 1.0, 'algorithm': 'SAMME'}",80.73,4,scaled
